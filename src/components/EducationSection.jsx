@@ -70,7 +70,7 @@ const courses = [
   {
     code: "CMPUT 404",
     name: "Web Applications & Architecture",
-    tag: "In Progress",
+    tag: "SE",
     description:
       "Design and implementation of modern web applications — HTTP, REST, client‑server architecture, distributed systems, security, and deployment of full‑stack web apps.",
   },
@@ -158,14 +158,14 @@ const courses = [
   {
     code: "FIN 201",
     name: "Introduction to Finance",
-    tag: "In Progress",
+    tag: "Fintech",
     description:
-      "Financial management fundamentals — time value of money, valuation of securities, capital budgeting, cost of capital, and an introduction to capital markets.",
+      "Financial management fundamentals — time value of money, valuation of securities, capital budgeting, cost of capital, and an introduction to capital markets. Foundational for working on fintech and banking systems.",
   },
   {
     code: "ACCTG 200",
     name: "Introduction to Accounting",
-    tag: "In Progress",
+    tag: "Fintech",
     description:
       "Foundations of financial and managerial accounting — financial statements, the accounting cycle, cost behaviour, and decision‑oriented reporting used by managers.",
   },
@@ -340,7 +340,7 @@ export const EducationSection = () => {
                     {course.tag && (
                       <span
                         className={`inline-block mt-1.5 text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded-full border ${
-                          course.tag === "In Progress"
+                          course.tag === "Fintech"
                             ? "bg-accent/10 text-accent border-accent/30"
                             : "bg-primary/5 text-primary border-primary/20"
                         }`}

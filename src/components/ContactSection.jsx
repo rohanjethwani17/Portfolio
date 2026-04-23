@@ -12,8 +12,9 @@ export const ContactSection = () => {
         <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent rounded-full mx-auto mb-4" />
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Ready to build something together? Feel free to reach out.
-          I'm always open to discussing new opportunities.
+          Ready to build something together? I'm always open to chatting about
+          new opportunities — especially in fintech, banking, and cloud‑scale
+          backend engineering.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">

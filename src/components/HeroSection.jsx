@@ -5,6 +5,7 @@ const roles = [
   "Software Developer",
   "Full Stack Engineer",
   "Cloud & Backend Enthusiast",
+  "Aspiring Fintech Engineer",
   "Computing Science Student",
 ];
 
@@ -49,7 +50,7 @@ export const HeroSection = () => {
           {/* badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/10 text-primary text-sm font-medium opacity-0 animate-fade-in">
             <Sparkles size={14} className="animate-pulse-subtle" />
-            <span>Incoming Software Development Intern @ City of Edmonton</span>
+            <span>Software Developer Intern @ City of Edmonton</span>
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight">

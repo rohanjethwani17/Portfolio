@@ -15,7 +15,7 @@ const highlights = [
   {
     icon: Database,
     title: "Scalable Backends",
-    desc: "Designed event‑driven systems with Kafka, Redis, and PostgreSQL that process thousands of updates per minute.",
+    desc: "Event‑driven systems with Kafka, Redis, and PostgreSQL processing thousands of updates per minute — with a growing curiosity for the low‑latency, high‑integrity backends behind fintech and banking.",
   },
   {
     icon: Brain,
@@ -48,27 +48,35 @@ export const AboutSection = () => {
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              This summer I'm joining the <span className="text-foreground font-medium">
-              City of Edmonton</span> as a Software Development Intern. Previously I interned at{" "}
-              <span className="text-foreground font-medium">IXLS</span> on Spring Boot
-              microservices and at <span className="text-foreground font-medium">Arcus Partners</span>{" "}
-              building Python ETL pipelines. I also recently shipped a full‑stack
-              capstone MVP deployed on GCP for a real client.
+              I'm currently a Software Developer Intern at the{" "}
+              <span className="text-foreground font-medium">City of Edmonton</span>.
+              Previously I interned at <span className="text-foreground font-medium">IXLS</span>{" "}
+              on Spring Boot microservices and at{" "}
+              <span className="text-foreground font-medium">Arcus Partners</span>{" "}
+              building Python ETL pipelines for a wealth‑management team — my
+              first real look at the kind of engineering that powers financial
+              products. I also recently shipped a full‑stack capstone MVP
+              deployed on GCP for a real client.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              🎯 Outside of coursework and internships, I ship side projects:
-              real‑time transit tracking with Kafka, a serverless AI‑powered LMS
-              on AWS, and a smart home platform with TDD‑driven CI/CD.
+              🎯 I'm especially drawn to{" "}
+              <span className="text-foreground font-medium">fintech and
+              banking</span> — building reliable, high‑throughput systems where
+              correctness matters, and where clean software directly shapes how
+              people move money. Outside coursework and internships, I ship side
+              projects: real‑time transit tracking with Kafka, a serverless
+              AI‑powered LMS on AWS, and a smart home platform with TDD‑driven
+              CI/CD.
             </p>
 
             <div className="flex flex-wrap gap-3 pt-2">
               {[
                 "AWS Solutions Architect",
                 "AWS Cloud Practitioner",
+                "Fintech & Banking",
                 "Innovation & Entrepreneurship",
                 "Java",
-                "TypeScript",
                 "Spring Boot",
               ].map((c) => (
                 <span key={c} className="chip">{c}</span>

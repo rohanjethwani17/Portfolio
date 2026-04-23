@@ -3,19 +3,18 @@ import { Briefcase, MapPin, Calendar } from "lucide-react";
 
 const experiences = [
   {
-    role: "Software Development Intern",
+    role: "Software Developer Intern",
     company: "City of Edmonton",
     location: "Edmonton, AB",
     period: "May 2026 – Present",
-    badge: "Incoming",
     points: [
-      "Joining the City of Edmonton as a Software Development Intern to contribute to civic‑impact software initiatives.",
-      "Will work across the full software development lifecycle on tools used by internal teams and residents.",
+      "Contributing to civic‑impact software initiatives across the full software development lifecycle.",
+      "Building and maintaining internal tools and resident‑facing systems used across City of Edmonton teams.",
     ],
     tags: ["Software Engineering", "Full Stack"],
   },
   {
-    role: "Software Development Intern",
+    role: "Software Developer Intern",
     company: "University of Alberta — Client Capstone",
     location: "Edmonton, AB",
     period: "Sep 2025 – Dec 2025",
