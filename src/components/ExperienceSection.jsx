@@ -15,7 +15,7 @@ const experiences = [
   },
   {
     role: "Software Developer Intern",
-    company: "University of Alberta — Client Capstone",
+    company: "University of Alberta, Client Capstone",
     location: "Edmonton, AB",
     period: "Sep 2025 – Dec 2025",
     points: [
@@ -28,7 +28,7 @@ const experiences = [
   },
   {
     role: "Software Developer Intern",
-    company: "IXLS Pvt. Ltd.",
+    company: "ILXS Pvt. Ltd.",
     location: "Mumbai, India",
     period: "May 2025 – Aug 2025",
     points: [
@@ -46,7 +46,7 @@ const experiences = [
     period: "May 2024 – Aug 2024",
     points: [
       "Delivered a Python data migration tool in 8 weeks, implementing agile sprints to ship business‑aligned features.",
-      "Built Python ETL pipelines for financial data collection, transformation, and SQL storage — improving data availability and analytics performance by 30%.",
+      "Built Python ETL pipelines for financial data collection, transformation, and SQL storage, which improved data availability and analytics performance by 30%.",
       "Optimized complex SQL queries for internal dashboards, cutting report generation time by 25% for the wealth management team.",
       "Implemented automated unit tests with Pytest, raising code coverage by 20% and ensuring data accuracy for stakeholders.",
     ],

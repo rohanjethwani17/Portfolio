@@ -3,7 +3,7 @@ import { BookOpen, GraduationCap, Award, ChevronDown, Sparkles } from "lucide-re
 import UALogo from "../assets/ualogo.svg";
 
 const courses = [
-  // Computing Science — core
+  // Computing Science core
   {
     code: "CMPUT 174 / 175",
     name: "Foundations of Computation I & II",
@@ -37,7 +37,7 @@ const courses = [
     name: "Formal Systems & Logic in Computing Science",
     tag: "Core",
     description:
-      "Tools of set theory, logic, and induction used in reasoning about algorithms and programs — propositional and predicate logic, inductive definitions, and proofs of program correctness.",
+      "Tools of set theory, logic, and induction used in reasoning about algorithms and programs. The course covers propositional and predicate logic, inductive definitions, and proofs of program correctness.",
   },
   {
     code: "CMPUT 291",
@@ -58,35 +58,35 @@ const courses = [
     name: "Software Process & Product Management",
     tag: "SE",
     description:
-      "Managing the process and product of software development — agile and plan‑driven methodologies, requirements, estimation, quality, and team dynamics through a real client capstone project.",
+      "Managing the process and product of software development. Topics include agile and plan‑driven methodologies, requirements, estimation, quality, and team dynamics, all applied through a real client capstone project.",
   },
   {
     code: "CMPUT 402",
     name: "Software Quality",
     tag: "SE",
     description:
-      "Software quality assurance and testing strategies — unit, integration, system, and regression testing; code coverage, mutation testing, and CI‑driven quality workflows.",
+      "Software quality assurance and testing strategies. The course covers unit, integration, system, and regression testing, along with code coverage, mutation testing, and CI‑driven quality workflows.",
   },
   {
     code: "CMPUT 404",
     name: "Web Applications & Architecture",
     tag: "SE",
     description:
-      "Design and implementation of modern web applications — HTTP, REST, client‑server architecture, distributed systems, security, and deployment of full‑stack web apps.",
+      "Design and implementation of modern web applications. The course covers HTTP, REST, client‑server architecture, distributed systems, security, and deployment of full‑stack web apps.",
   },
   {
     code: "CMPUT 200",
     name: "Ethics of Data Science & AI",
     tag: "AI / ML",
     description:
-      "Ethics issues in AI and Data Science. Privacy, fairness/bias, and explainability — how to identify and measure these aspects in algorithmic outputs and how to build algorithms that correct for them.",
+      "Ethics issues in AI and Data Science, with a focus on privacy, fairness and bias, and explainability. The course teaches how to identify and measure these aspects in algorithmic outputs and how to build algorithms that correct for them.",
   },
   {
     code: "CMPUT 267",
     name: "Machine Learning I",
     tag: "AI / ML",
     description:
-      "Fundamental statistical, mathematical, and computational concepts in analyzing data. Univariate models, data summarization, model estimation, generalization, and evaluation — a foundation for advanced ML.",
+      "Fundamental statistical, mathematical, and computational concepts in analyzing data. Topics include univariate models, data summarization, model estimation, generalization, and evaluation. The course provides a foundation for advanced ML.",
   },
   {
     code: "CMPUT 365",
@@ -100,7 +100,7 @@ const courses = [
     name: "Search & Planning in AI",
     tag: "AI / ML",
     description:
-      "Search and planning in artificial intelligence — deterministic single and multi‑agent problems, state‑space search, combinatorial optimization, constraint satisfaction, and multi‑agent problems.",
+      "Search and planning in artificial intelligence. The course covers deterministic single‑agent and multi‑agent problems, state‑space search, combinatorial optimization, and constraint satisfaction.",
   },
 
   // Math & Stats
@@ -109,21 +109,21 @@ const courses = [
     name: "Linear Algebra I",
     tag: "Math",
     description:
-      "Systems of linear equations, matrix algebra, determinants, vector spaces, linear transformations, eigenvalues and eigenvectors — the foundation for applied math in computing.",
+      "Systems of linear equations, matrix algebra, determinants, vector spaces, linear transformations, eigenvalues, and eigenvectors. This course provides the foundation for applied math in computing.",
   },
   {
     code: "MATH 225",
     name: "Linear Algebra II",
     tag: "Math",
     description:
-      "Vector spaces, inner product spaces, orthogonality, diagonalization, and applications — advanced linear algebra tools used in machine learning and graphics. (Transfer credit, Athabasca University.)",
+      "Vector spaces, inner product spaces, orthogonality, diagonalization, and applications. These advanced linear algebra tools are widely used in machine learning and graphics. (Transfer credit, Athabasca University.)",
   },
   {
     code: "MATH 154 / 156",
     name: "Calculus I & II",
     tag: "Math",
     description:
-      "Differential and integral calculus — limits, derivatives, optimization, integration techniques, series, and applications to business and economics.",
+      "Differential and integral calculus. Topics include limits, derivatives, optimization, integration techniques, series, and applications to business and economics.",
   },
   {
     code: "MATH 241",
@@ -137,14 +137,14 @@ const courses = [
     name: "Introduction to Applied Statistics I",
     tag: "Stats",
     description:
-      "Descriptive statistics, probability, sampling distributions, estimation, hypothesis testing, and regression — core statistical tools for data analysis.",
+      "Descriptive statistics, probability, sampling distributions, estimation, hypothesis testing, and regression. These are core statistical tools for data analysis.",
   },
   {
     code: "STAT 252",
     name: "Introduction to Applied Statistics II",
     tag: "Stats",
     description:
-      "ANOVA, multiple regression, categorical data analysis, and nonparametric methods — applied statistical modelling building on STAT 151.",
+      "ANOVA, multiple regression, categorical data analysis, and nonparametric methods. The course extends applied statistical modelling and builds on STAT 151.",
   },
 
   // Business & Innovation
@@ -153,21 +153,21 @@ const courses = [
     name: "Exploring Innovation & Entrepreneurship",
     tag: "I&E",
     description:
-      "Exploring the innovation process and entrepreneurial mindset — opportunity recognition, idea validation, venture development, and the role of innovation in technology and society.",
+      "Exploring the innovation process and entrepreneurial mindset. The course covers opportunity recognition, idea validation, venture development, and the role of innovation in technology and society.",
   },
   {
     code: "FIN 201",
     name: "Introduction to Finance",
     tag: "Fintech",
     description:
-      "Financial management fundamentals — time value of money, valuation of securities, capital budgeting, cost of capital, and an introduction to capital markets. Foundational for working on fintech and banking systems.",
+      "Financial management fundamentals. The course covers the time value of money, valuation of securities, capital budgeting, cost of capital, and an introduction to capital markets. It is foundational for working on fintech and banking systems.",
   },
   {
     code: "ACCTG 200",
     name: "Introduction to Accounting",
     tag: "Fintech",
     description:
-      "Foundations of financial and managerial accounting — financial statements, the accounting cycle, cost behaviour, and decision‑oriented reporting used by managers.",
+      "Foundations of financial and managerial accounting. The course covers financial statements, the accounting cycle, cost behaviour, and decision‑oriented reporting used by managers.",
   },
   {
     code: "ECON 101",
@@ -220,7 +220,7 @@ export const EducationSection = () => {
           </div>
         </div>
 
-        {/* Certifications — prominent */}
+        {/* Certifications prominent */}
         <div className="mb-12">
           <div className="flex items-center gap-2 mb-4 text-muted-foreground">
             <Award size={18} className="text-primary" />
@@ -249,7 +249,7 @@ export const EducationSection = () => {
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 flex-wrap">
                   <h4 className="font-semibold text-sm">
-                    AWS Certified Solutions Architect — Associate
+                    AWS Certified Solutions Architect – Associate
                   </h4>
                   <span className="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full bg-accent/20 text-accent border border-accent/30">
                     Featured

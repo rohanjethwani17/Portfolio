@@ -7,7 +7,7 @@ const projects = [
     title: "RouteForge",
     subtitle: "Real-time Transit Tracking",
     description:
-      "Built a real‑time transit tracking system using Java Spring Boot microservices, processing 5,000+ vehicle updates per minute. Architected an event‑driven pipeline with Kafka, Redis pooling, and PostgreSQL batch processing — reducing write latency by 80%.",
+      "Built a real‑time transit tracking system using Java Spring Boot microservices that processes over 5,000 vehicle updates per minute. Architected an event‑driven pipeline with Kafka, Redis pooling, and PostgreSQL batch processing, which reduced write latency by 80%.",
     icon: Bus,
     gradient: "from-blue-500/30 to-purple-500/30",
     tags: ["Java", "Spring Boot", "Kafka", "Redis", "PostgreSQL", "Docker", "GitHub Actions"],
@@ -40,7 +40,7 @@ const projects = [
     title: "Ocelot-Novels",
     subtitle: "Android Novel Reader",
     description:
-      "Delivered a fully featured Android novel‑reading app during a 4‑month sprint using Java, UML, Firebase, CI/CD, JUnit, and Android Studio — shipped with full test coverage and a clean architecture.",
+      "Delivered a fully featured Android novel‑reading app during a 4‑month sprint using Java, UML, Firebase, CI/CD, JUnit, and Android Studio. The app shipped with full test coverage and a clean architecture.",
     icon: BookOpen,
     gradient: "from-fuchsia-500/30 to-rose-500/30",
     tags: ["Java", "UML", "Firebase", "CI/CD", "JUnit", "Android"],

@@ -5,7 +5,7 @@ const highlights = [
   {
     icon: Layers,
     title: "Full Stack Development",
-    desc: "Shipping end‑to‑end features with React, Next.js, Node.js, Spring Boot, and Django — from UI polish to robust REST APIs.",
+    desc: "Shipping end‑to‑end features with React, Next.js, Node.js, Spring Boot, and Django. My work spans UI polish all the way to robust REST APIs.",
   },
   {
     icon: Cloud,
@@ -15,7 +15,7 @@ const highlights = [
   {
     icon: Database,
     title: "Scalable Backends",
-    desc: "Event‑driven systems with Kafka, Redis, and PostgreSQL processing thousands of updates per minute — with a growing curiosity for the low‑latency, high‑integrity backends behind fintech and banking.",
+    desc: "I design event‑driven systems with Kafka, Redis, and PostgreSQL that process thousands of updates per minute. I am especially curious about the low‑latency, high‑integrity backends that power fintech and banking.",
   },
   {
     icon: Brain,
@@ -42,32 +42,34 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground leading-relaxed">
-              I build software that's pragmatic, scalable, and pleasant to use.
+              I build software that is pragmatic, scalable, and pleasant to use.
               My focus is on full‑stack development, cloud infrastructure, and
-              distributed backends — with a growing interest in applied AI.
+              distributed backends. I also have a growing interest in applied
+              AI.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              I'm currently a Software Developer Intern at the{" "}
+              I am currently a Software Developer Intern at the{" "}
               <span className="text-foreground font-medium">City of Edmonton</span>.
-              Previously I interned at <span className="text-foreground font-medium">IXLS</span>{" "}
-              on Spring Boot microservices and at{" "}
+              Before that, I interned at{" "}
+              <span className="text-foreground font-medium">ILXS</span> on Spring
+              Boot microservices and at{" "}
               <span className="text-foreground font-medium">Arcus Partners</span>{" "}
-              building Python ETL pipelines for a wealth‑management team — my
-              first real look at the kind of engineering that powers financial
-              products. I also recently shipped a full‑stack capstone MVP
-              deployed on GCP for a real client.
+              building Python ETL pipelines for a wealth‑management team. That
+              was my first real look at the kind of engineering that powers
+              financial products. I also recently shipped a full‑stack capstone
+              MVP deployed on GCP for a real client.
             </p>
 
             <p className="text-muted-foreground leading-relaxed">
-              🎯 I'm especially drawn to{" "}
+              🎯 I am especially drawn to{" "}
               <span className="text-foreground font-medium">fintech and
-              banking</span> — building reliable, high‑throughput systems where
-              correctness matters, and where clean software directly shapes how
-              people move money. Outside coursework and internships, I ship side
-              projects: real‑time transit tracking with Kafka, a serverless
-              AI‑powered LMS on AWS, and a smart home platform with TDD‑driven
-              CI/CD.
+              banking</span>. I love the challenge of building reliable,
+              high‑throughput systems where correctness matters and where clean
+              software directly shapes how people move money. Outside coursework
+              and internships, I ship side projects such as a real‑time transit
+              tracking service with Kafka, a serverless AI‑powered LMS on AWS,
+              and a smart home platform with TDD‑driven CI/CD.
             </p>
 
             <div className="flex flex-wrap gap-3 pt-2">
